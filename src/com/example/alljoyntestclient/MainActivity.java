@@ -42,6 +42,8 @@ import android.widget.FrameLayout;
 public class MainActivity extends Activity {
 
 	private final String APPLICATION_NAME = "com.TestClient";
+	
+	private final String TEST_TEXT = "test1";
 
 	static {
 		System.loadLibrary("alljoyn_java");
